@@ -52,5 +52,5 @@ jobs:
       run: >
         aws deploy create-deployment --application-name be-1-superscman
         --deployment-config-name CodeDeployDefault.AllAtOnce
-        --deployment-group-name be-0-name-group
+        --deployment-group-name be-1-superscman-group
         --s3-location bucket=$S3_BUCKET_NAME,bundleType=zip,key=practice-deploy.zip
